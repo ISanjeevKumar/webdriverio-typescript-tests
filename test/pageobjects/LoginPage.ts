@@ -22,6 +22,7 @@ class LoginPage {
   }
 
   public async isUserLoggedIn() {
+    await expect(browser).toHaveUrl("https://www.saucedemo.com/inventory.html");
     await expect(this.inventoryContainer).toBePresent();
   }
 }
