@@ -2,7 +2,6 @@
 
 WebdriverIO e2e tests using page object model design patterns in Typescript.
 
-
 ## Framework Supports
 
 - Cross browser test automation
@@ -15,5 +14,5 @@ WebdriverIO e2e tests using page object model design patterns in Typescript.
 ## How to run WebDriverIO tests
 
 ```
-npx wdio run ./wdio.conf.js
+ npm run wdio
 ```
